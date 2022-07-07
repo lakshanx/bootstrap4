@@ -58,7 +58,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@include media-breakpoint-down(md){
   #showcase {
     min-height: 500px;
 

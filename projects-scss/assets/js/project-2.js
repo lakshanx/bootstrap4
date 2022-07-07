@@ -1,3 +1,5 @@
+$('#year').text(new Date().getFullYear());
+
 $('body').scrollspy({ target: '#main-nav' });
 
 $("#main-nav a").on('click', function (event) {
