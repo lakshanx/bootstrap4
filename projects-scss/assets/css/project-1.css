@@ -7211,15 +7211,15 @@ h3 {
   color: #008ed6;
   background: #fff;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 0.25rem;
 }
 
 #explore-section .icon,
 #share-section .icon {
-  background: #333;
+  background: #212529;
   color: #fff;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 0.25rem;
 }
 
 /*# sourceMappingURL=project-1.css.map */
