@@ -14,7 +14,7 @@ body {
 .navbar {
   box-shadow: 2px 2px 5px $primary;
   opacity: 0.9;
-  background: #fff;
+  background: $white;
 
   .nav-item {
     font-size: 1.4rem;
@@ -40,7 +40,7 @@ body {
 .info-header {
   width: 50%;
   margin: auto;
-  border-bottom: 1px #ddd solid;
+  border-bottom: 1px $white solid;
 }
 
 #authors {
@@ -50,11 +50,11 @@ body {
 
   .card:hover {
     background: $primary;
-    color: #fff;
+    color: $white;
   }
 
   .fab {
-    color: #fff;
+    color: $white;
   }
 }
 
