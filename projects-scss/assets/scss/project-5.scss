@@ -37,6 +37,21 @@ $theme-colors: (
     font-display: swap;
 }
 
+.icon{
+  width: 1em;
+  height: 1em;
+
+  &--2x{
+    width: 2em;
+    height: 2em;
+  }
+
+  &--3x{
+    width: 3em;
+    height: 3em;
+  } 
+} 
+
 #main-header  {
   img{
     width: 100%;

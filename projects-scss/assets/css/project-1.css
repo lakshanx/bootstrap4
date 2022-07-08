@@ -7174,12 +7174,6 @@ h3 {
 .icon {
   width: 1em;
   height: 1em;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-.icon svg {
-  fill: #008ed6;
 }
 .icon--2x {
   width: 2em;
@@ -7226,10 +7220,6 @@ h3 {
   color: #fff;
   padding: 5px;
   border-radius: 5px;
-}
-#explore-section .icon svg,
-#share-section .icon svg {
-  fill: #fff;
 }
 
 /*# sourceMappingURL=project-1.css.map */

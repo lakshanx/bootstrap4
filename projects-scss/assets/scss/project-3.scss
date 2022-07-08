@@ -32,7 +32,23 @@ $theme-colors: (
 body {
   overflow-x: hidden;
 }
+
+  .icon{
+    width: 1em;
+    height: 1em;
+
+    &--2x{
+      width: 2em;
+      height: 2em;
+    }
   
+    &--3x{
+      width: 3em;
+      height: 3em;
+    } 
+       
+  } 
+
   .navbar .nav-link {
     font-size: 14px;
     text-transform: uppercase;
@@ -44,7 +60,6 @@ body {
     border-left: $gray-700 3px solid;
   }
   
-
   #home-carousel{
 
     .carousel-item {

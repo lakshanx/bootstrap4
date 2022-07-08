@@ -8260,4 +8260,17 @@ body {
   min-height: 100vh;
 }
 
+.icon {
+  width: 1em;
+  height: 1em;
+}
+.icon--2x {
+  width: 2em;
+  height: 2em;
+}
+.icon--3x {
+  width: 3em;
+  height: 3em;
+}
+
 /*# sourceMappingURL=project-4.css.map */

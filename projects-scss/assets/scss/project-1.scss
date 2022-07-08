@@ -35,13 +35,6 @@ $body-color: #fff;
 .icon{
   width: 1em;
   height: 1em;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-
-  svg{
-    fill:$primary;
-  }
 
   &--2x{
     width: 2em;
@@ -54,7 +47,6 @@ $body-color: #fff;
   }
 
 }
-
 
 #home-section {
   background: url(../img/project-1/home.jpg);
@@ -98,8 +90,5 @@ $body-color: #fff;
   padding: 5px;
   border-radius: 5px;
 
-  svg{
-    fill:$white;
-  }
 }
 

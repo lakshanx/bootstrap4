@@ -28,5 +28,20 @@
 
 //Custom styles
 body{
-    min-height: 100vh;
+  min-height: 100vh;
 }
+
+.icon{
+  width: 1em;
+  height: 1em;
+
+  &--2x{
+    width: 2em;
+    height: 2em;
+  }
+
+  &--3x{
+    width: 3em;
+    height: 3em;
+  } 
+} 
