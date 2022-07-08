@@ -1,17 +1,17 @@
 $('#year').text(new Date().getFullYear());
 
-$('.slider').slick({
-    infinite: true,
-    slideToShow: 1,
-    slideToScroll: 1
-  });
+// $('.slider').slick({
+//     infinite: true,
+//     slideToShow: 1,
+//     slideToScroll: 1
+//   });
 
 
 // Configure Slider
-$('.carousel').carousel({
-  interval: 6000,
-  pause: 'hover'
-});
+// $('.carousel').carousel({
+//   interval: 6000,
+//   pause: 'hover'
+// });
 
 // Lightbox Init
 $(document).on('click', '[data-toggle="lightbox"]', function (event) {
