@@ -9351,8 +9351,6 @@ body {
   background: url("../img/project-3/lights.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  text-align: center;
-  color: #fff;
 }
 
 .dark-overlay {
@@ -9371,12 +9369,6 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 0 -300px;
-  text-align: center;
-  color: #fff;
-}
-
-#video-play a {
-  color: #fff;
 }
 
 #page-header {
@@ -9384,9 +9376,7 @@ body {
   background: url("../img/project-3/image1.jpg");
   background-position: 0 -360px;
   background-attachment: fixed;
-  color: #fff;
   border-bottom: 1px #eee solid;
-  padding-top: 50px;
 }
 
 .about-img {
