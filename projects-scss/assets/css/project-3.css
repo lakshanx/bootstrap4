@@ -9326,7 +9326,7 @@ body {
 }
 
 .navbar .nav-item.active {
-  border-left: #444 3px solid;
+  border-left: #495057 3px solid;
 }
 
 #home-carousel .carousel-item {
@@ -9384,15 +9384,11 @@ body {
 }
 
 #faq .card {
-  border: #444;
-}
-#faq a {
-  color: #fff;
-  text-decoration: none;
+  border-color: #495057;
 }
 #faq .card-body,
 #faq .card-header {
-  background: #333;
+  background-color: #495057;
 }
 
 /*# sourceMappingURL=project-3.css.map */

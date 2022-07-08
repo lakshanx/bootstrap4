@@ -20,7 +20,7 @@ body {
   }
   
   .navbar .nav-item.active {
-    border-left: #444 3px solid;
+    border-left: $gray-700 3px solid;
   }
   
 
@@ -88,17 +88,12 @@ body {
   #faq {
   
     .card {
-      border: #444;
-    }
-    
-    a {
-      color: #fff;
-      text-decoration: none;
+      border-color: $gray-700;
     }
     
     .card-body,
     .card-header {
-      background: #333;
+      background-color: $gray-700;
     }
     
   }
