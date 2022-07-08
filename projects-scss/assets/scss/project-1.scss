@@ -42,7 +42,7 @@ $body-color: #fff;
 #home-section .fas,
 #create-section .fas {
   color: $primary;
-  background: #fff;
+  background: $white;
   padding: 5px;
   border-radius: 5px;
 }
@@ -50,7 +50,7 @@ $body-color: #fff;
 #explore-section .fas,
 #share-section .fas {
   background: #333;
-  color: #fff;
+  color:  $white;
   padding: 5px;
   border-radius: 5px;
 }
