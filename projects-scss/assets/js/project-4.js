@@ -1,5 +1,5 @@
-$('#year').text(new Date().getFullYear());
+$("#year").text(new Date().getFullYear());
 
-if (typeof CKEDITOR !== 'undefined') {
-    CKEDITOR.replace('editor1');
+if (typeof CKEDITOR !== "undefined") {
+  CKEDITOR.replace("editor1");
 }

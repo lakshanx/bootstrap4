@@ -45,7 +45,7 @@ body {
   }
 }
 
-.icon{
+.icon {
   width: 1em;
   height: 1em;
 }
@@ -86,7 +86,7 @@ body {
   }
 }
 
-@include media-breakpoint-down(md){
+@include media-breakpoint-down(md) {
   #showcase {
     min-height: 500px;
 

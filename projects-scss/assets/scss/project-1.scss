@@ -32,16 +32,16 @@ $body-color: #fff;
   opacity: 0.8;
 }
 
-.icon{
+.icon {
   width: 1em;
   height: 1em;
 
-  &--2x{
+  &--2x {
     width: 2em;
     height: 2em;
   }
 
-  &--3x{
+  &--3x {
     width: 3em;
     height: 3em;
   }
@@ -63,11 +63,11 @@ $body-color: #fff;
     min-height: 700px;
     background: rgba(0, 0, 0, 0.7);
   }
-  
+
   .home-inner {
     padding-top: 150px;
   }
-  
+
   .card-form {
     opacity: 0.8;
   }
@@ -85,10 +85,9 @@ $body-color: #fff;
 #explore-section .icon,
 #share-section .icon {
   background: #333;
-  color:  $white;
+  color: $white;
 
   padding: 5px;
   border-radius: 5px;
 
 }
-

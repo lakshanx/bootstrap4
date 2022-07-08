@@ -34,103 +34,103 @@ body {
   overflow-x: hidden;
 }
 
-  .icon{
-    width: 1em;
-    height: 1em;
+.icon {
+  width: 1em;
+  height: 1em;
 
-    &--2x{
-      width: 2em;
-      height: 2em;
-    }
-  
-    &--3x{
-      width: 3em;
-      height: 3em;
-    } 
-       
-  } 
-
-  .navbar .nav-link {
-    font-size: 14px;
-    text-transform: uppercase;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-  }
-  
-  .navbar .nav-item.active {
-    border-left: $gray-700 3px solid;
-  }
-  
-  #home-carousel{
-
-    .carousel-item {
-      height: 450px;
-    }
-    
-    .carousel-image-1 {
-      background: url('../img/project-3/image1.jpg');
-      background-size: cover;
-    }
-    
-    .carousel-image-2 {
-      background: url('../img/project-3/image2.jpg');
-      background-size: cover;
-    }
-    
-    .carousel-image-3 {
-      background: url('../img/project-3/image3.jpg');
-      background-size: cover;
-    }
-
+  &--2x {
+    width: 2em;
+    height: 2em;
   }
 
-  #home-heading {
-    position: relative;
-    min-height: 200px;
-    background: url('../img/project-3/lights.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  &--3x {
+    width: 3em;
+    height: 3em;
   }
-  
-  .dark-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: $gray-700 3px solid;
+}
+
+#home-carousel {
+
+  .carousel-item {
+    height: 450px;
   }
-  
-  #video-play {
-    position: relative;
-    min-height: 200px;
-    background: url('../img/project-3/media.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 0 -300px;
-  }
-  
-  #page-header {
-    height: 200px;
+
+  .carousel-image-1 {
     background: url('../img/project-3/image1.jpg');
-    background-position: 0 -360px;
-    background-attachment: fixed;
-    border-bottom: 1px $white solid;
-  }
-  
-  .about-img {
-    margin-top: -50px;
+    background-size: cover;
   }
 
-  #faq {
-  
-    .card {
-      border-color: $gray-700;
-    }
-    
-    .card-body,
-    .card-header {
-      background-color: $gray-700;
-    }
-    
+  .carousel-image-2 {
+    background: url('../img/project-3/image2.jpg');
+    background-size: cover;
   }
+
+  .carousel-image-3 {
+    background: url('../img/project-3/image3.jpg');
+    background-size: cover;
+  }
+
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/project-3/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/project-3/media.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+}
+
+#page-header {
+  height: 200px;
+  background: url('../img/project-3/image1.jpg');
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  border-bottom: 1px $white solid;
+}
+
+.about-img {
+  margin-top: -50px;
+}
+
+#faq {
+
+  .card {
+    border-color: $gray-700;
+  }
+
+  .card-body,
+  .card-header {
+    background-color: $gray-700;
+  }
+
+}
