@@ -9192,21 +9192,18 @@ body {
   border-left: #444 3px solid;
 }
 
-.carousel-item {
+#home-carousel .carousel-item {
   height: 450px;
 }
-
-.carousel-image-1 {
+#home-carousel .carousel-image-1 {
   background: url("../img/project-3/image1.jpg");
   background-size: cover;
 }
-
-.carousel-image-2 {
+#home-carousel .carousel-image-2 {
   background: url("../img/project-3/image2.jpg");
   background-size: cover;
 }
-
-.carousel-image-3 {
+#home-carousel .carousel-image-3 {
   background: url("../img/project-3/image3.jpg");
   background-size: cover;
 }
