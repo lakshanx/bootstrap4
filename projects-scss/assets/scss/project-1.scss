@@ -27,11 +27,34 @@ $body-color: #fff;
 @import "../../node_modules/bootstrap/scss/print";
 
 //Custom styles
-
 .navbar {
   border-bottom: $primary 3px solid;
   opacity: 0.8;
 }
+
+.icon{
+  width: 1em;
+  height: 1em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  svg{
+    fill:$primary;
+  }
+
+  &--2x{
+    width: 2em;
+    height: 2em;
+  }
+
+  &--3x{
+    width: 3em;
+    height: 3em;
+  }
+
+}
+
 
 #home-section {
   background: url(../img/project-1/home.jpg);
@@ -59,18 +82,24 @@ $body-color: #fff;
 
 }
 
-#home-section .fas,
-#create-section .fas {
+#home-section .icon,
+#create-section .icon {
   color: $primary;
   background: $white;
   padding: 5px;
   border-radius: 5px;
 }
 
-#explore-section .fas,
-#share-section .fas {
+#explore-section .icon,
+#share-section .icon {
   background: #333;
   color:  $white;
+
   padding: 5px;
   border-radius: 5px;
+
+  svg{
+    fill:$white;
+  }
 }
+

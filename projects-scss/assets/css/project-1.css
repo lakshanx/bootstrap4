@@ -7171,6 +7171,25 @@ h3 {
   opacity: 0.8;
 }
 
+.icon {
+  width: 1em;
+  height: 1em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.icon svg {
+  fill: #008ed6;
+}
+.icon--2x {
+  width: 2em;
+  height: 2em;
+}
+.icon--3x {
+  width: 3em;
+  height: 3em;
+}
+
 #home-section {
   background: url(../img/project-1/home.jpg);
   background-repeat: no-repeat;
@@ -7193,20 +7212,24 @@ h3 {
   opacity: 0.8;
 }
 
-#home-section .fas,
-#create-section .fas {
+#home-section .icon,
+#create-section .icon {
   color: #008ed6;
   background: #fff;
   padding: 5px;
   border-radius: 5px;
 }
 
-#explore-section .fas,
-#share-section .fas {
+#explore-section .icon,
+#share-section .icon {
   background: #333;
   color: #fff;
   padding: 5px;
   border-radius: 5px;
+}
+#explore-section .icon svg,
+#share-section .icon svg {
+  fill: #fff;
 }
 
 /*# sourceMappingURL=project-1.css.map */
