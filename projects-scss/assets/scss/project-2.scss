@@ -29,6 +29,9 @@ $primary-overlay: rgba(50, 146, 166, 0.8);
 @import "../../node_modules/bootstrap/scss/print";
 
 //Custom styles
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   margin-top: 105px;

@@ -7774,6 +7774,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin-top: 105px;
 }

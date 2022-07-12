@@ -7166,6 +7166,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   border-bottom: #008ed6 3px solid;
   opacity: 0.8;
