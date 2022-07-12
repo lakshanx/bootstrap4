@@ -1,0 +1,10 @@
+.fixed-bg-image{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+
+  &__overlay {
+    background: rgba(0, 0, 0, 0.6);
+  }
+}

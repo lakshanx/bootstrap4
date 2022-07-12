@@ -7195,15 +7195,14 @@ html {
   color: #fff;
 }
 
-#home-section {
+.fixed-bg-image {
   position: relative;
-  background: url("https://supernovabrands.com/img/hero-home-1240x848.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-#home-section .dark-overlay {
-  background: rgba(0, 0, 0, 0.7);
+.fixed-bg-image__overlay {
+  background: rgba(0, 0, 0, 0.6);
 }
 
 /*# sourceMappingURL=project-1.css.map */

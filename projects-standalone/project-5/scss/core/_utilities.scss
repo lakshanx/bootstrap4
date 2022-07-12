@@ -1,0 +1,15 @@
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
+
+.object-fit-cover{
+    object-fit: cover;
+}
+
+.hover-opacity{
+    transition: $transition-base;
+    &:hover{
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}
