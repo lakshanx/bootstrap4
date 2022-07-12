@@ -47,25 +47,23 @@ body {
     width: 3em;
     height: 3em;
   }
-
 }
 
 .navbar{
   .nav-link {
-    font-size: 14px;
+    font-size: .9em;
     text-transform: uppercase;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
   }
+
   .nav-item.active {
     border-left: $gray-700 3px solid;
   }
 }
 
 
-
 #home-carousel {
-
   .carousel-item {
     height: 450px;
   }
@@ -84,12 +82,11 @@ body {
     background: url('../img/project-3/image3.jpg');
     background-size: cover;
   }
-
 }
 
 #home-heading {
   position: relative;
-  min-height: 200px;
+  height: 12.6em;
   background: url('../img/project-3/lights.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -106,27 +103,30 @@ body {
 
 #video-play {
   position: relative;
-  min-height: 200px;
+  height: 12.6em;
   background: url('../img/project-3/media.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: 0 -300px;
+  background-position: center;
 }
 
 #page-header {
-  height: 200px;
+  height: 12.6em;
   background: url('../img/project-3/image1.jpg');
-  background-position: 0 -360px;
+  background-position: center;
   background-attachment: fixed;
   border-bottom: 1px $white solid;
+
+  @include media-breakpoint-down(md) {
+    background-position: top left;
+  }
 }
 
 .about-img {
-  margin-top: -50px;
+  margin-top: -4em;
 }
 
 #faq {
-
   .card {
     border-color: $gray-700;
   }
@@ -135,5 +135,4 @@ body {
   .card-header {
     background-color: $gray-700;
   }
-
 }
