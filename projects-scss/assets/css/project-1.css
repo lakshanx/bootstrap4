@@ -13,7 +13,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #008ed6;
+  --primary: #FF4B81;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -26,7 +26,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: "Sofia Pro", -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -49,7 +49,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Sofia Pro", -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -146,12 +146,12 @@ sup {
 }
 
 a {
-  color: #008ed6;
+  color: #FF4B81;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #005b8a;
+  color: #fe004c;
   text-decoration: underline;
 }
 
@@ -1446,9 +1446,9 @@ mark,
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #57c6ff;
+  border-color: #ffcbda;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 142, 214, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(255, 75, 129, 0.25);
 }
 .form-control::placeholder {
   color: #6c757d;
@@ -1868,7 +1868,7 @@ textarea.form-control {
 }
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 142, 214, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(255, 75, 129, 0.25);
 }
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
@@ -1883,32 +1883,32 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #008ed6;
-  border-color: #008ed6;
+  background-color: #FF4B81;
+  border-color: #FF4B81;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0075b0;
-  border-color: #006ca3;
+  background-color: #ff2566;
+  border-color: #ff185d;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #0075b0;
-  border-color: #006ca3;
-  box-shadow: 0 0 0 0.2rem rgba(38, 159, 220, 0.5);
+  background-color: #ff2566;
+  border-color: #ff185d;
+  box-shadow: 0 0 0 0.2rem rgba(255, 102, 148, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #008ed6;
-  border-color: #008ed6;
+  background-color: #FF4B81;
+  border-color: #FF4B81;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #006ca3;
-  border-color: #006496;
+  background-color: #ff185d;
+  border-color: #ff0b54;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 159, 220, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 102, 148, 0.5);
 }
 
 .btn-secondary {
@@ -2122,28 +2122,28 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #008ed6;
-  border-color: #008ed6;
+  color: #FF4B81;
+  border-color: #FF4B81;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #008ed6;
-  border-color: #008ed6;
+  background-color: #FF4B81;
+  border-color: #FF4B81;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 142, 214, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 75, 129, 0.5);
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #008ed6;
+  color: #FF4B81;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #008ed6;
-  border-color: #008ed6;
+  background-color: #FF4B81;
+  border-color: #FF4B81;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 142, 214, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 75, 129, 0.5);
 }
 
 .btn-outline-secondary {
@@ -2323,11 +2323,11 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #008ed6;
+  color: #FF4B81;
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #005b8a;
+  color: #fe004c;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -2450,7 +2450,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #008ed6;
+  background-color: #FF4B81;
 }
 
 .nav-fill > .nav-link,
@@ -3120,8 +3120,8 @@ input[type=button].btn-block {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #008ed6;
-  border-color: #008ed6;
+  background-color: #FF4B81;
+  border-color: #FF4B81;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -3261,17 +3261,17 @@ input[type=button].btn-block {
 }
 
 .list-group-item-primary {
-  color: #004a6f;
-  background-color: #b8dff4;
+  color: #852743;
+  background-color: #ffcddc;
 }
 .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
-  color: #004a6f;
-  background-color: #a2d5f1;
+  color: #852743;
+  background-color: #ffb4ca;
 }
 .list-group-item-primary.list-group-item-action.active {
   color: #fff;
-  background-color: #004a6f;
-  border-color: #004a6f;
+  background-color: #852743;
+  border-color: #852743;
 }
 
 .list-group-item-secondary {
@@ -3833,13 +3833,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #008ed6 !important;
+  background-color: #FF4B81 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #006ca3 !important;
+  background-color: #ff185d !important;
 }
 
 .bg-secondary {
@@ -3961,7 +3961,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #008ed6 !important;
+  border-color: #FF4B81 !important;
 }
 
 .border-secondary {
@@ -6980,11 +6980,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #008ed6 !important;
+  color: #FF4B81 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #005b8a !important;
+  color: #fe004c !important;
 }
 
 .text-secondary {
@@ -7170,11 +7170,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.navbar {
-  border-bottom: #008ed6 3px solid;
-  opacity: 0.8;
-}
-
 .icon {
   width: 1em;
   height: 1em;
@@ -7187,48 +7182,28 @@ html {
   width: 3em;
   height: 3em;
 }
-
-#home-section {
-  position: relative;
-  background: url(../img/project-1/home.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 45em;
-}
-#home-section .dark-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-}
-#home-section .home-inner {
-  padding-top: 9.4em;
-}
-#home-section .card-form {
-  opacity: 0.8;
-}
-
-#home-section .icon,
-#create-section .icon,
-#explore-section .icon,
-#share-section .icon {
+.icon--styled-light, .icon--styled-dark {
   padding: 0.3em;
   border-radius: 0.25rem;
 }
-
-#home-section .icon,
-#create-section .icon {
-  color: #008ed6;
+.icon--styled-light {
+  color: #FF4B81;
   background: #fff;
 }
-
-#explore-section .icon,
-#share-section .icon {
+.icon--styled-dark {
   background: #212529;
   color: #fff;
+}
+
+#home-section {
+  position: relative;
+  background: url("https://supernovabrands.com/img/hero-home-1240x848.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#home-section .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /*# sourceMappingURL=project-1.css.map */

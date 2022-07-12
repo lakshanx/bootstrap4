@@ -1,7 +1,10 @@
 //Vars
-$primary: #008ed6;
+$primary: #FF4B81;
 $body-bg: #333;
 $body-color: #fff;
+
+$font-family-sans-serif: "Sofia Pro", -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+$font-family-base: $font-family-sans-serif;
 
 // Bootstrap modules
 @import "../../node_modules/bootstrap/scss/functions";
@@ -26,15 +29,9 @@ $body-color: #fff;
 @import "../../node_modules/bootstrap/scss/utilities";
 @import "../../node_modules/bootstrap/scss/print";
 
-
 //Custom styles
 html {
   scroll-behavior: smooth;
-}
-
-.navbar {
-  border-bottom: $primary 3px solid;
-  opacity: 0.8;
 }
 
 .icon {
@@ -51,50 +48,31 @@ html {
     height: 3em;
   }
 
+  &--styled-light,
+  &--styled-dark{
+    padding: 0.3em;
+    border-radius: $border-radius;        
+  }
+
+  &--styled-light{
+    color: $primary;
+    background: $white;    
+  }  
+
+  &--styled-dark{
+    background: $gray-900;
+    color: $white;
+  }    
 }
 
 #home-section {
   position: relative;
-  background: url(../img/project-1/home.jpg);
+  background: url('https://supernovabrands.com/img/hero-home-1240x848.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 45em;
 
   .dark-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     background: rgba(0, 0, 0, 0.7);
   }
-
-  .home-inner {
-    padding-top: 9.4em;
-  }
-
-  .card-form {
-    opacity: 0.8;
-  }
-
-}
-
-#home-section .icon,
-#create-section .icon, 
-#explore-section .icon,
-#share-section .icon{
-  padding: 0.3em;
-  border-radius: $border-radius;
-}
-#home-section .icon,
-#create-section .icon {
-  color: $primary;
-  background: $white;
-}
-
-#explore-section .icon,
-#share-section .icon {
-  background: $gray-900;
-  color: $white;
 }
