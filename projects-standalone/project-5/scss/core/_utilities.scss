@@ -2,13 +2,14 @@
     scroll-behavior: smooth;
 }
 
-.object-fit-cover{
+.object-fit-cover {
     object-fit: cover;
 }
 
-.hover-opacity{
+.hover-opacity {
     transition: $transition-base;
-    &:hover{
+
+    &:hover {
         opacity: 0.7;
         cursor: pointer;
     }

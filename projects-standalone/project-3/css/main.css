@@ -2638,8 +2638,8 @@ input[type=button].btn-block {
     position: absolute;
   }
   .navbar-expand-sm .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 0.8em;
+    padding-left: 0.8em;
   }
   .navbar-expand-sm > .container,
 .navbar-expand-sm > .container-fluid,
@@ -2683,8 +2683,8 @@ input[type=button].btn-block {
     position: absolute;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 0.8em;
+    padding-left: 0.8em;
   }
   .navbar-expand-md > .container,
 .navbar-expand-md > .container-fluid,
@@ -2728,8 +2728,8 @@ input[type=button].btn-block {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 0.8em;
+    padding-left: 0.8em;
   }
   .navbar-expand-lg > .container,
 .navbar-expand-lg > .container-fluid,
@@ -2773,8 +2773,8 @@ input[type=button].btn-block {
     position: absolute;
   }
   .navbar-expand-xl .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 0.8em;
+    padding-left: 0.8em;
   }
   .navbar-expand-xl > .container,
 .navbar-expand-xl > .container-fluid,
@@ -2815,8 +2815,8 @@ input[type=button].btn-block {
   position: absolute;
 }
 .navbar-expand .navbar-nav .nav-link {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+  padding-right: 0.8em;
+  padding-left: 0.8em;
 }
 .navbar-expand > .container,
 .navbar-expand > .container-fluid,
@@ -7258,12 +7258,6 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.aspect-ratio-16-9 {
-  aspect-ratio: 16/9;
-  height: 100%;
-  width: auto;
-}
-
 .icon {
   width: 1em;
   height: 1em;
@@ -7285,31 +7279,6 @@ h3 {
 }
 .fixed-bg-image__overlay {
   background: rgba(0, 0, 0, 0.6);
-}
-
-.navbar .nav-item.active {
-  border-left: #495057 3px solid;
-}
-
-#home-carousel .carousel-item {
-  height: 450px;
-}
-
-#video-play {
-  height: 12.6em;
-  background: url("../img/media.jpg");
-}
-
-.about-img {
-  margin-top: -4em;
-}
-
-#faq .card {
-  border-color: #495057;
-}
-#faq .card-body,
-#faq .card-header {
-  background-color: #495057;
 }
 
 /*# sourceMappingURL=main.css.map */
