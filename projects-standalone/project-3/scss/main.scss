@@ -30,3 +30,38 @@
 // Custom Components
 @import "./components/icon";
 @import "./components/bg-fixed-image";
+
+
+  .navbar{
+    .nav-item.active {
+      border-left: $gray-700 3px solid;
+    }
+  }
+  
+  
+  #home-carousel {
+    .carousel-item {
+      height: 450px;
+    }
+  }
+  
+  #video-play {
+    height: 12.6em;
+    background: url('../img/media.jpg');
+  }
+
+  
+  .about-img {
+    margin-top: -4em;
+  }
+  
+  #faq {
+    .card {
+      border-color: $gray-700;
+    }
+  
+    .card-body,
+    .card-header {
+      background-color: $gray-700;
+    }
+  }

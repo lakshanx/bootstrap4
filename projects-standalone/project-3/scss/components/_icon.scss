@@ -10,21 +10,5 @@
   &--3x {
     width: 3em;
     height: 3em;
-  }
-
-  &--styled-light,
-  &--styled-dark{
-    padding: 0.3em;
-    border-radius: $border-radius;        
-  }
-
-  &--styled-light{
-    color: $primary;
-    background: $white;    
-  }  
-
-  &--styled-dark{
-    background: $gray-900;
-    color: $white;
-  }    
+  }   
 }
