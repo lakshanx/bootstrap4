@@ -55,10 +55,11 @@ body {
   text-transform: uppercase;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
-}
-
-.navbar .nav-item.active {
-  border-left: $gray-700 3px solid;
+  
+  .nav-item.active {
+    border-left: $gray-700 3px solid;
+  }
+  
 }
 
 #home-carousel {

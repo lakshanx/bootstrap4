@@ -28,7 +28,7 @@ $body-color: #fff;
 
 
 //Custom styles
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -54,23 +54,24 @@ html{
 }
 
 #home-section {
+  position: relative;
   background: url(../img/project-1/home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 700px;
+  min-height: 45em;
 
   .dark-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 700px;
+    height: 100%;
     background: rgba(0, 0, 0, 0.7);
   }
 
   .home-inner {
-    padding-top: 150px;
+    padding-top: 9.4em;
   }
 
   .card-form {
@@ -80,17 +81,20 @@ html{
 }
 
 #home-section .icon,
+#create-section .icon, 
+#explore-section .icon,
+#share-section .icon{
+  padding: 0.3em;
+  border-radius: $border-radius;
+}
+#home-section .icon,
 #create-section .icon {
   color: $primary;
   background: $white;
-  padding: 5px;
-  border-radius: $border-radius;
 }
 
 #explore-section .icon,
 #share-section .icon {
   background: $gray-900;
   color: $white;
-  padding: 5px;
-  border-radius: $border-radius;
 }

@@ -7796,8 +7796,7 @@ body {
   padding-left: 1rem !important;
   padding-right: 1rem !important;
 }
-
-.navbar .nav-item.active {
+.navbar .nav-link .nav-item.active {
   border-left: #495057 3px solid;
 }
 
