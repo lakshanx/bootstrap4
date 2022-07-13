@@ -1,5 +1,7 @@
 # bootstrap4
 
-Go to projects-scss directory & `npm install` to add Dart Sass & Bootstrap packages. 
+Go to the relevent sub-directory within `projects-standalone` directory & `npm install` to add Sass. 
+
+Each project's packages are managed independently.
 
 Run `npm run sass-watch` to compile & watch for scss changes.
