@@ -8260,6 +8260,10 @@ h3 {
   scroll-behavior: smooth;
 }
 
+.vh-100 {
+  height: 100vh;
+}
+
 .icon {
   width: 1em;
   height: 1em;
