@@ -7285,4 +7285,12 @@ h3 {
   background: url("../img/image1.jpg");
 }
 
+.fixed-bg-image--get-started {
+  background-image: url("../img/lights.jpg");
+}
+
+.fixed-bg-image--video-play {
+  background-image: url("../img/media.jpg");
+}
+
 /*# sourceMappingURL=main.css.map */
