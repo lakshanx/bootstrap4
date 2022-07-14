@@ -1,0 +1,41 @@
+.check-list {
+    list-style: none;
+
+    li {
+        position: relative;
+        padding: 0 0 3em 4.5em;
+
+        &::before {
+            content: "✓";
+            position: absolute;
+            font-size: 2.1em;
+            top: .1em;
+            left: 0;
+            line-height: 1em;
+            padding: .1em .3em;
+            border-radius: $border-radius;
+            color: $primary;
+            background: $white;
+        }
+
+    }
+
+    &--light li::before {
+        color: $primary;
+        background: $white;
+    }
+
+    &--dark li::before {
+        background: $gray-900;
+        color: $white;
+    }
+
+    // &--2x li::before {
+    //     font-size: 2em;
+    // }
+
+    // &--3x li::before {
+    //     font-size: 3em;
+    // }
+
+}
