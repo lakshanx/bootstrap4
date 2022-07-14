@@ -7174,31 +7174,6 @@ h1 {
   font-weight: 300;
 }
 
-.icon {
-  width: 1em;
-  height: 1em;
-}
-.icon--2x {
-  width: 2em;
-  height: 2em;
-}
-.icon--3x {
-  width: 3em;
-  height: 3em;
-}
-.icon--styled-light, .icon--styled-dark {
-  padding: 0.3em;
-  border-radius: 0.25rem;
-}
-.icon--styled-light {
-  color: #FF4B81;
-  background: #fff;
-}
-.icon--styled-dark {
-  background: #212529;
-  color: #fff;
-}
-
 .fixed-bg-image {
   position: relative;
   background-repeat: no-repeat;
