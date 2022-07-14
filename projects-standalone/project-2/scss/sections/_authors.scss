@@ -1,11 +1,15 @@
-
-#authors {
+.authors {
 	.card:hover {
 		background: $primary;
 		color: $white;
-	}
 
-	.fab {
-		color: $white;
+		.text-muted {
+			opacity: .7;
+			color: $white  !important;
+		}
+
+		.icon {
+			color: $white;
+		}
 	}
 }

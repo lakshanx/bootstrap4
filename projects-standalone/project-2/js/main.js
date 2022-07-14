@@ -1,4 +1,4 @@
-$("#year").text(new Date().getFullYear());
+$("js-year").text(new Date().getFullYear());
 
 $("body").scrollspy({ target: "#main-nav" });
 
