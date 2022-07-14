@@ -6757,14 +6757,4 @@ h3 {
   height: 3em;
 }
 
-.fixed-bg-image {
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.fixed-bg-image__overlay {
-  background: rgba(0, 0, 0, 0.6);
-}
-
 /*# sourceMappingURL=main.css.map */
