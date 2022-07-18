@@ -9,9 +9,9 @@
 	<title>Project 1</title>
 </head>
 
-<body data-spy="scroll" data-target="#main-nav">
+<body id="home" data-spy="scroll" data-target="#main-nav">
 
-	<nav class="sticky-top bg-dark border-bottom border-primary navbar navbar-expand-sm navbar-dark ">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top border-bottom border-primary">
 		<div class="container">
 			<a href="index.html" class="navbar-brand">LoopLAB</a>
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -43,7 +43,7 @@
 					<h1>Build
 						<strong>social profiles</strong> and gain revenue
 						<strong>profits</strong>
-					</h1>
+					</h1>					
 					<ul class="check-list check-list--light pt-4">
 						<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto,
 							perspiciatis mollitia natus harum?</li>
@@ -53,18 +53,20 @@
 							perspiciatis mollitia natus harum?</li>
 					</ul>
 				</div>
+
 				<div class="col-lg-4">
-					<div class="card bg-primary text-center card-form p-3">
-						<h2>Sign Up Today</h2>
-						<p>Please fill out this form to register</p>
-						<form>
-							<input type="text" class="form-control form-control-lg mb-3" placeholder="Username">
-							<input type="email" class="form-control form-control-lg mb-3" placeholder="Email">
-							<input type="password" class="form-control form-control-lg mb-3" placeholder="Password">
-							<input type="password" class="form-control form-control-lg mb-3"
-								placeholder="Confirm Password">
-							<input type="submit" value="Submit" class="btn btn-outline-light btn-block">
-						</form>
+					<div class="card bg-primary text-center card-form">
+						<div class="card-body">
+							<h3>Sign Up Today</h3>
+							<p>Please fill out this form to register</p>
+							<form>
+								<input type="text" class="form-control form-control-lg mb-2" placeholder="Username">
+								<input type="email" class="form-control form-control-lg mb-2" placeholder="Email">
+								<input type="password" class="form-control form-control-lg mb-2" placeholder="Password">
+								<input type="password" class="form-control form-control-lg mb-3" placeholder="Confirm Password">
+								<input type="submit" value="Submit" class="btn btn-outline-light btn-block">
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -72,7 +74,7 @@
 	</section>
 
 	<section id="explore-head-section" class="container text-center py-5">
-		<h2 class="display-4">Explore</h2>
+		<h1>Explore</h1>
 		<p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
 			itaque
 			quibusdam rem accusantium
@@ -106,7 +108,7 @@
 
 	<section id="create-head-section" class="bg-primary">
 		<div class="container text-center py-5">
-			<h2 class="display-4">Create</h2>
+			<h1>Create</h1>
 			<p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
 				itaque
 				quibusdam rem accusantium
@@ -115,6 +117,7 @@
 		</div>
 	</section>
 
+	<!-- CREATE SECTION -->
 	<section id="create-section" class="py-5">
 		<div class="container">
 			<div class="row">
@@ -141,19 +144,47 @@
 		</div>
 	</section>
 
-
+	<!-- SHARE HEAD -->
 	<section id="share-head-section" class="bg-primary">
 		<div class="container text-center py-5">
-			<h2 class="display-4">Share</h2>
+			<h1>Share</h1>
 			<p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
 				itaque
 				quibusdam rem accusantium
 				deserunt reprehenderit sunt minus.</p>
 			<a href="#" class="btn btn-outline-light">Find Out More</a>
 		</div>
+	</section>	
+
+	<!-- SHARE SECTION -->
+	<section id="share-section" class="bg-light text-muted py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="./img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+				</div>
+				<div class="col-md-6">
+					<h3>Share What You Create</h3>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias
+						laborum
+						odit aliquid
+						tempore perspiciatis repudiandae hic?</p>
+
+					<ul class="check-list check-list--dark pt-4">
+						<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto,
+							perspiciatis mollitia natus harum?</li>
+						<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto,
+							perspiciatis mollitia natus harum?</li>
+						<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto,
+							perspiciatis mollitia natus harum?</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</section>
 
-	<footer class="bg-dark">
+	<!-- FOOTER -->
+	<footer id="main-footer" class="bg-dark">
 		<div class="container text-center py-4">
 			<h3>LoopLAB</h3>
 			<p>Copyright &copy;
@@ -161,41 +192,40 @@
 			</p>
 			<button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
 		</div>
+	</footer>
 
-		<!-- CONTACT MODAL -->
-		<div class="modal fade text-dark" id="contactModal">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h2 class="modal-title">Contact Us</h2>
-						<button class="close" data-dismiss="modal">
-							<span>&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<form>
-							<div class="form-group">
-								<label for="name">Name</label>
-								<input type="text" class="form-control">
-							</div>
-							<div class="form-group">
-								<label for="email">Email</label>
-								<input type="email" class="form-control">
-							</div>
-							<div class="form-group">
-								<label for="message">Message</label>
-								<textarea class="form-control"></textarea>
-							</div>
-						</form>
-					</div>
-					<div class="modal-footer">
-						<button class="btn btn-primary btn-block">Submit</button>
-					</div>
+	<!-- CONTACT MODAL -->
+	<div class="modal fade text-dark" id="contactModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Contact Us</h5>
+					<button class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea class="form-control"></textarea>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-primary btn-block">Submit</button>
 				</div>
 			</div>
 		</div>
-
-	</footer>
+	</div>
 
 	<script src="./vendor/jquery/jquery-3.3.1.min.js"></script>
 	<script src="./vendor/bootstrap/js/dist/util.js"></script>
