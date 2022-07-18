@@ -7786,6 +7786,7 @@ h3 {
 .icon {
   width: 1em;
   height: 1em;
+  margin-top: -0.2em;
 }
 .icon--2x {
   width: 2em;
