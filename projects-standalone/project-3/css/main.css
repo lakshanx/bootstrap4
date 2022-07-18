@@ -7271,6 +7271,16 @@ h3 {
   height: 3em;
 }
 
+.check-list li {
+  display: list-item;
+}
+.check-list li::marker {
+  content: "✓";
+}
+.check-list--center {
+  list-style-position: inside;
+}
+
 .fixed-bg-image {
   position: relative;
   background-repeat: no-repeat;

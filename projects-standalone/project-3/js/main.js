@@ -1,4 +1,4 @@
-$("#year").text(new Date().getFullYear());
+$(".js-year").text(new Date().getFullYear());
 
 // Lightbox Init
 $(document).on("click", '[data-toggle="lightbox"]', function (event) {

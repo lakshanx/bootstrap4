@@ -1,0 +1,14 @@
+.check-list {
+    li {
+        display: list-item;
+
+        &::marker {
+            content: "✓";
+        }
+    }
+
+    &--center{
+        list-style-position: inside;
+    }
+
+}
