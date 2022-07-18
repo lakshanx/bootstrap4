@@ -10,29 +10,26 @@
 </head>
 
 <body data-spy="scroll" data-target="#main-nav">
-
-	<nav class="sticky-top bg-dark border-bottom border-primary navbar navbar-expand-sm navbar-dark ">
+	<nav id="main-nav" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top border-bottom border-primary">
 		<div class="container">
 			<a href="index.html" class="navbar-brand">LoopLAB</a>
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarCollapse">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a href="#home-section" class="nav-link">Home</a>
-					</li>
-					<li class="nav-item">
-						<a href="#explore-head-section" class="nav-link">Explore</a>
-					</li>
-					<li class="nav-item">
-						<a href="#create-head-section" class="nav-link">Create</a>
-					</li>
-					<li class="nav-item">
-						<a href="#share-head-section" class="nav-link">Share</a>
-					</li>
-				</ul>
-			</div>
+			<ul class="navbar-nav collapse navbar-collapse justify-content-end" id="navbarCollapse">
+				<li class="nav-item">
+					<a href="#home-section" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#explore-head-section" class="nav-link">Explore</a>
+				</li>
+				<li class="nav-item">
+					<a href="#create-head-section" class="nav-link">Create</a>
+				</li>
+				<li class="nav-item">
+					<a href="#share-head-section" class="nav-link">Share</a>
+				</li>
+			</ul>
 		</div>
 	</nav>
 
@@ -53,18 +50,21 @@
 							perspiciatis mollitia natus harum?</li>
 					</ul>
 				</div>
+
 				<div class="col-lg-4">
-					<div class="card bg-primary text-center card-form p-3">
-						<h2>Sign Up Today</h2>
-						<p>Please fill out this form to register</p>
-						<form>
-							<input type="text" class="form-control form-control-lg mb-3" placeholder="Username">
-							<input type="email" class="form-control form-control-lg mb-3" placeholder="Email">
-							<input type="password" class="form-control form-control-lg mb-3" placeholder="Password">
-							<input type="password" class="form-control form-control-lg mb-3"
-								placeholder="Confirm Password">
-							<input type="submit" value="Submit" class="btn btn-outline-light btn-block">
-						</form>
+					<div class="card bg-primary text-center card-form">
+						<div class="card-body">
+							<h2 class="h3">Sign Up Today</h2>
+							<p>Please fill out this form to register</p>
+							<form>
+								<input type="text" class="form-control form-control-lg mb-2" placeholder="Username">
+								<input type="email" class="form-control form-control-lg mb-2" placeholder="Email">
+								<input type="password" class="form-control form-control-lg mb-2" placeholder="Password">
+								<input type="password" class="form-control form-control-lg mb-3"
+									placeholder="Confirm Password">
+								<input type="submit" value="Submit" class="btn btn-outline-light btn-block">
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -73,10 +73,10 @@
 
 	<section id="explore-head-section" class="container text-center py-5">
 		<h2 class="display-4">Explore</h2>
-		<p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
-			itaque
-			quibusdam rem accusantium
-			deserunt reprehenderit sunt minus.</p>
+		<p class="lead">
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+			itaque quibusdam rem accusantium deserunt reprehenderit sunt minus.
+		</p>
 		<a href="#" class="btn btn-outline-secondary">Find Out More</a>
 	</section>
 
@@ -88,16 +88,19 @@
 				</div>
 				<div class="col-md-6">
 					<h3>Explore & Connect</h3>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias
-						laborum
-						odit aliquid
-						tempore perspiciatis repudiandae hic?</p>
-
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+						itaque quibusdam rem accusantium deserunt reprehenderit sunt minus.
+					</p>
 					<ul class="check-list check-list--dark pt-4">
-						<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto,
-							perspiciatis mollitia natus harum?</li>
-						<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto,
-							perspiciatis mollitia natus harum?</li>
+						<li>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+							itaque quibusdam rem accusantium.
+						</li>
+						<li>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+							itaque quibusdam rem accusantium.
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -107,94 +110,125 @@
 	<section id="create-head-section" class="bg-primary">
 		<div class="container text-center py-5">
 			<h2 class="display-4">Create</h2>
-			<p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
-				itaque
-				quibusdam rem accusantium
-				deserunt reprehenderit sunt minus.</p>
+			<p class="lead">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+				itaque quibusdam rem accusantium deserunt reprehenderit sunt minus.
+			</p>
 			<a href="#" class="btn btn-outline-light">Find Out More</a>
 		</div>
 	</section>
 
-	<section id="create-section" class="py-5">
+	<section id="create-section" class="container py-5">
+		<div class="row">
+			<div class="col-md-6 order-2">
+				<img src="./img/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+			</div>
+			<div class="col-md-6 order-1">
+				<h3>Create Your Passion</h3>
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+					itaque quibusdam rem accusantium deserunt reprehenderit sunt minus.
+				</p>
+				<ul class="check-list check-list--light pt-4">
+					<li>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+						itaque.
+					</li>
+					<li>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+						itaque quibusdam rem.
+					</li>
+					<li>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+						itaque quibusdam rem accusantium.
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="share-head-section" class="bg-primary">
+		<div class="container text-center py-5">
+			<h2 class="display-4">Share</h2>
+			<p class="lead">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+				itaque quibusdam rem accusantium deserunt reprehenderit sunt minus.
+			</p>
+			<a href="#" class="btn btn-outline-light">Find Out More</a>
+		</div>
+	</section>	
+
+	<section id="share-section" class="bg-light text-muted py-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 order-2">
-					<img src="./img/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+				<div class="col-md-6">
+					<img src="./img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
 				</div>
-				<div class="col-md-6 order-1">
-					<h3>Create Your Passion</h3>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias
-						laborum
-						odit aliquid
-						tempore perspiciatis repudiandae hic?</p>
-
-					<ul class="check-list check-list--light pt-4">
-						<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto,
-							perspiciatis mollitia natus harum?</li>
-						<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto,
-							perspiciatis mollitia natus harum?</li>
-						<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto,
-							perspiciatis mollitia natus harum?</li>
+				<div class="col-md-6">
+					<h3>Share What You Create</h3>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+						itaque quibusdam rem accusantium deserunt reprehenderit sunt minus.
+					</p>
+					<ul class="check-list check-list--dark pt-4">
+						<li>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+							itaque.
+						</li>
+						<li>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+							itaque quibusdam rem.
+						</li>
+						<li>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
+							itaque quibusdam rem accusantium.
+						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
 
-
-	<section id="share-head-section" class="bg-primary">
-		<div class="container text-center py-5">
-			<h2 class="display-4">Share</h2>
-			<p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure
-				itaque
-				quibusdam rem accusantium
-				deserunt reprehenderit sunt minus.</p>
-			<a href="#" class="btn btn-outline-light">Find Out More</a>
-		</div>
-	</section>
-
-	<footer class="bg-dark">
-		<div class="container text-center py-4">
-			<h3>LoopLAB</h3>
-			<p>Copyright &copy;
-				<span id="year"></span>
-			</p>
-			<button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
-		</div>
-
-		<!-- CONTACT MODAL -->
-		<div class="modal fade text-dark" id="contactModal">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h2 class="modal-title">Contact Us</h2>
-						<button class="close" data-dismiss="modal">
-							<span>&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<form>
-							<div class="form-group">
-								<label for="name">Name</label>
-								<input type="text" class="form-control">
-							</div>
-							<div class="form-group">
-								<label for="email">Email</label>
-								<input type="email" class="form-control">
-							</div>
-							<div class="form-group">
-								<label for="message">Message</label>
-								<textarea class="form-control"></textarea>
-							</div>
-						</form>
-					</div>
-					<div class="modal-footer">
-						<button class="btn btn-primary btn-block">Submit</button>
-					</div>
+	<aside class="modal fade text-dark" id="contactModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title">Contact Us</h2>
+					<button class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea class="form-control"></textarea>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-primary btn-block">Submit</button>
 				</div>
 			</div>
 		</div>
+	</aside>
 
+	<footer id="main-footer" class="bg-dark">
+		<div class="container text-center py-4">
+			<h3>LoopLAB</h3>
+			<p>
+				Copyright &copy; <span id="year"></span>
+			</p>
+			<button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+		</div>
 	</footer>
 
 	<script src="./vendor/jquery/jquery-3.3.1.min.js"></script>
