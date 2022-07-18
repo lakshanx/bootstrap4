@@ -19,16 +19,16 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav">
-						<li class="nav-item">
+						<li class="nav-item px-2">
 							<a href="index.html" class="nav-link">Dashboard</a>
 						</li>
-						<li class="nav-item">
-							<a href="posts.html" class="nav-link">Posts</a>
+						<li class="nav-item px-2">
+							<a href="posts.html" class="nav-link active">Posts</a>
 						</li>
-						<li class="nav-item">
-							<a href="categories.html" class="nav-link active">Categories</a>
+						<li class="nav-item px-2">
+							<a href="categories.html" class="nav-link">Categories</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item px-2">
 							<a href="users.html" class="nav-link">Users</a>
 						</li>
 					</ul>
@@ -76,32 +76,34 @@
 				</div>
 			</div>
 		</nav>
-		<h1 class="container py-2">
-			<svg class="icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-				<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-				<path
-					d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z">
-				</path>
-			</svg> Posts
-		</h1>
+		<div class="container py-2 ">
+			<h1>
+				<svg class="icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+					<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+					<path
+						d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z">
+					</path>
+				</svg> Posts
+			</h1>
+		</div>
 	</header>
 
 	<!-- SEARCH -->
-	<aside class=" py-4 mb-4 bg-light">
-		<div class="container">
-			<div class="col-md-6 ml-auto input-group">
-				<input type="text" class="form-control" placeholder="Search Posts...">
-				<div class="input-group-append">
-					<button class="btn btn-primary">Search</button>
-				</div>
+	<section class=" py-4 mb-4 bg-light">
+		<div class="container input-group">
+			<input type="text" class="form-control" placeholder="Search Posts...">
+			<div class="input-group-append">
+				<button class="btn btn-primary">Search</button>
 			</div>
 		</div>
-	</aside>
+	</section>
 
 	<!-- POSTS -->
-	<main class="container flex-fill">
+	<section id="posts" class="container flex-fill">
 		<div class="card">
-			<h4 class="card-header">Latest Posts</h4>
+			<div class="card-header">
+				<h4>Latest Posts</h4>
+			</div>
 			<table class="table table-striped">
 				<thead class="thead-dark">
 					<tr>
@@ -120,7 +122,13 @@
 						<td>May 10 2018</td>
 						<td>
 							<a href="details.html" class="btn btn-secondary">
-								» Details
+								<svg class="icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512">
+									<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+									<path
+										d="M246.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L178.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C47.63 444.9 55.81 448 64 448s16.38-3.125 22.62-9.375l160-160C259.1 266.1 259.1 245.9 246.6 233.4zM438.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L370.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C239.6 444.9 247.8 448 256 448s16.38-3.125 22.62-9.375l160-160C451.1 266.1 451.1 245.9 438.6 233.4z">
+									</path>
+								</svg> Details
 							</a>
 						</td>
 					</tr>
@@ -131,7 +139,13 @@
 						<td>May 11 2018</td>
 						<td>
 							<a href="details.html" class="btn btn-secondary">
-								» Details
+								<svg class="icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512">
+									<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+									<path
+										d="M246.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L178.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C47.63 444.9 55.81 448 64 448s16.38-3.125 22.62-9.375l160-160C259.1 266.1 259.1 245.9 246.6 233.4zM438.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L370.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C239.6 444.9 247.8 448 256 448s16.38-3.125 22.62-9.375l160-160C451.1 266.1 451.1 245.9 438.6 233.4z">
+									</path>
+								</svg> Details
 							</a>
 						</td>
 					</tr>
@@ -142,7 +156,13 @@
 						<td>May 13 2018</td>
 						<td>
 							<a href="details.html" class="btn btn-secondary">
-								» Details
+								<svg class="icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512">
+									<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+									<path
+										d="M246.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L178.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C47.63 444.9 55.81 448 64 448s16.38-3.125 22.62-9.375l160-160C259.1 266.1 259.1 245.9 246.6 233.4zM438.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L370.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C239.6 444.9 247.8 448 256 448s16.38-3.125 22.62-9.375l160-160C451.1 266.1 451.1 245.9 438.6 233.4z">
+									</path>
+								</svg> Details
 							</a>
 						</td>
 					</tr>
@@ -153,7 +173,13 @@
 						<td>May 15 2018</td>
 						<td>
 							<a href="details.html" class="btn btn-secondary">
-								» Details
+								<svg class="icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512">
+									<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+									<path
+										d="M246.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L178.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C47.63 444.9 55.81 448 64 448s16.38-3.125 22.62-9.375l160-160C259.1 266.1 259.1 245.9 246.6 233.4zM438.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L370.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C239.6 444.9 247.8 448 256 448s16.38-3.125 22.62-9.375l160-160C451.1 266.1 451.1 245.9 438.6 233.4z">
+									</path>
+								</svg> Details
 							</a>
 						</td>
 					</tr>
@@ -164,7 +190,13 @@
 						<td>May 17 2018</td>
 						<td>
 							<a href="details.html" class="btn btn-secondary">
-								» Details
+								<svg class="icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512">
+									<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+									<path
+										d="M246.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L178.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C47.63 444.9 55.81 448 64 448s16.38-3.125 22.62-9.375l160-160C259.1 266.1 259.1 245.9 246.6 233.4zM438.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L370.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C239.6 444.9 247.8 448 256 448s16.38-3.125 22.62-9.375l160-160C451.1 266.1 451.1 245.9 438.6 233.4z">
+									</path>
+								</svg> Details
 							</a>
 						</td>
 					</tr>
@@ -175,13 +207,20 @@
 						<td>May 20 2018</td>
 						<td>
 							<a href="details.html" class="btn btn-secondary">
-								» Details
+								<svg class="icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512">
+									<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+									<path
+										d="M246.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L178.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C47.63 444.9 55.81 448 64 448s16.38-3.125 22.62-9.375l160-160C259.1 266.1 259.1 245.9 246.6 233.4zM438.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L370.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C239.6 444.9 247.8 448 256 448s16.38-3.125 22.62-9.375l160-160C451.1 266.1 451.1 245.9 438.6 233.4z">
+									</path>
+								</svg> Details
 							</a>
 						</td>
 					</tr>
 				</tbody>
 			</table>
 
+			<!-- PAGINATION -->
 			<ul class="pagination ml-4">
 				<li class="page-item disabled">
 					<a href="#" class="page-link">Previous</a>
@@ -200,19 +239,25 @@
 				</li>
 			</ul>
 		</div>
-	</main>
+	</section>
 
-	<footer class="bg-dark text-white mt-5 p-5">
-		<p class="lead text-center">
-			Copyright &copy; <span class="js-year"></span> Blogen
-		</p>
+	<!-- FOOTER -->
+	<footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+		<div class="container">
+			<p class="lead text-center">
+				Copyright &copy;
+				<span id="year"></span>
+				Blogen
+			</p>
+		</div>
 	</footer>
 
 	<script src="./vendor/jquery/jquery-3.3.1.min.js"></script>
 	<script src="./vendor/bootstrap/js/dist/util.js"></script>
 	<script src="./vendor/bootstrap/js/dist/dropdown.js"></script>
 	<script src="./vendor/bootstrap/js/dist/collapse.js"></script>
-	<script src="./js/main.js"></script>	
+	<script src="./js/main.js"></script>
+
 </body>
 
 </html>
